@@ -1,0 +1,119 @@
+FloorMap Object
+-10 ~ -1: Intro Floor Object
+	-10 ~ -8: Grass
+		-10: Grass
+		-9: Some Flowers
+		-8: Many Flowers
+
+0 ~ 100: Special Object
+	0 ~ 10: Floor Object
+		0: Empty
+		1: Wall - Brown (common)
+		2: Wall - White
+		3: Wall - Grey
+		4: Wall - Blue
+		5: Wall - Yellow
+		
+		
+	11 ~ 15: Potions
+		11: Normal red potion (+10 hp)
+		12: Normal blue potion (+20 hp)
+	21 ~ 30: Gems
+		21: Normal red gem
+		22: Normal blue gem
+	51 ~ 60: Swords
+	91: Up Stair
+	92: Down Stair
+	
+	99: Player
+	100 ~ 150: Princess
+	
+	
+201 ~ 300: Items
+	201 ~ 210: Key Object
+		201: Yellow Key
+		202: Blue Key
+		203: Red Key
+	
+	221 ~ 230: Door Object
+		221: Yellow Door
+		222: Blue Door
+		223: Red Door
+	
+	241 ~ 260: Buffs/Potions
+		241: Blue(small) Potion
+		242: Red (large) Potion
+		
+		251: Damage Buff
+		252: Defense Buff
+		
+	
+501 ~ 600: Monsters
+	501 ~ 520: Level A Monsters
+	
+
+801 ~ 900: NPC
+	801 ~ 850: Mr. Agnew
+
+1100 ~ 1200: NPC
+
+
+======================================================================
+Files
+
+SystemFunction.py
+~ System functions, including:
+	
+	blackScreen(string, seconds)
+		Display a black screen with the given string (all caps) for given seconds.
+		For example, "Floor Zero".
+		
+	information(screen)
+		Information screen.
+
+
+SystemClass.py (currently V3)
+~ System classes, mainly interface elements
+			
+	TextButton(pygame.sprite.Sprite)
+	
+	Icon(pygame.sprite.Sprite)
+
+	Background(pygame.sprite.Sprite)
+
+	SubtitleText(pygame.sprite.Sprite)
+	
+	YKeyNumber, BKeyNumber, RKeyNumber, GoldNumber, StatusLevel
+	DmgNumber, DefNumber, HpNumber, String
+
+
+SystemObject.py 
+~ System objects
+
+	Wall
+	Grass
+	Door
+	Key
+	Stair
+	Potion
+	Gem
+
+	
+MonsterObject.py
+~ Monsters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
