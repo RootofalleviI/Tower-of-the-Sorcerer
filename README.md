@@ -1,2 +1,7 @@
 # Tower-of-the-Sorcerer
-Gonna update when I have time.
+
+#### Keywords
+Python, Pygame
+
+#### Download
+The source is a bit messy and I'm planning to redo the data structure part (for efficiency) when I have time.
